@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body{
+    height:100%;
+}
+
+.top-sec{
+    background-color:#C1DEAE;
+    padding: 5px 2%;
+    margin-bottom: 10px;
+}
+
+.midle-sec, .bottom-sec{
+    width: 200px;
+    height:200px;
+}
+
+.midle-sec{
+    background-color:blue;
+}
+
+.bottom-sec{
+    background-color:red;
+}
