@@ -6,23 +6,25 @@
 
 html, body{
     height:100%;
+    text-align:center;
 }
 
 .top-sec{
-    background-color:#C1DEAE;
-    padding: 5px 2%;
+    background-color:#EEEEEE;
+    position:relative;
+    padding: 0 2%;
+    padding-top: 50px;
     margin-bottom: 10px;
 }
 
-.midle-sec, .bottom-sec{
-    width: 200px;
-    height:200px;
+.top-sec > h1 {
+    margin-top:50px;
+}
+.top-sec > .cloud-img-1{
+    position: absolute;
+    right: 330px;
+}
+.top-sec > .cloud-img-2{
+    position: absolute;
 }
 
-.midle-sec{
-    background-color:blue;
-}
-
-.bottom-sec{
-    background-color:red;
-}
