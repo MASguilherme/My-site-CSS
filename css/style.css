@@ -28,3 +28,34 @@ html, body{
     position: absolute;
 }
 
+.top-sec > .mountain-img{
+    width:100%;
+    max-width: 598px;
+}
+
+
+
+
+
+/* media screen */
+
+@media screen and (max-width:1024px){
+    .top-sec > .cloud-img-1{
+        position: absolute;
+        right: 200px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .top-sec > .cloud-img-1{
+        position: absolute;
+        right: 100px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .top-sec > .cloud-img-1{
+        position: absolute;
+        right: 20px;
+    }
+}
