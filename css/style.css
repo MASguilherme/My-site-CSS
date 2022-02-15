@@ -56,10 +56,16 @@ a{
 .skills{
     margin: 70px 0;
 }
-.skills-row{
+.skills-row-l{
     width:50%;
     margin: 70px auto;
     text-align:left;
+    line-height: 2;
+}
+.skills-row-r{
+    width:50%;
+    margin: 70px auto;
+    text-align:right;
     line-height: 2;
 }
 .skills-img{
@@ -71,6 +77,12 @@ a{
     width:25%;
     float:right;
     margin-left:36px;
+}
+.skills-descriptio-l{
+    clear:left;
+}
+.skills-descriptio-r{
+    clear:right;
 }
 
 
