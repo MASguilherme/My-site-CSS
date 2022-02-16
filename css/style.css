@@ -1,111 +1,174 @@
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    height:100%;
-    text-align:center;
-    font-family: 'Merriweather Sans', sans-serif;
+html,
+body {
+  color:#40514E;
+  height: 100%;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
 }
-h2{
-    font-family: 'Montserrat', sans-serif;
-    color:#66BFBF;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color:#11999E;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
-a{
-    color:#11999E;
+a {
+  color: #11999e;
 }
-.top-sec{
-    background-color:#C8F2EF;
-    position:relative;
-    padding: 0 2%;
-    padding-top: 50px;
-    margin-bottom: 10px;
+.divisor{
+    font-weight: bold;
+    font-size:2rem;
+    color:#EAF6F6;
+    margin: 70px 0;
+}
+.top-sec {
+  background-color: #EAF6F6;
+  position: relative;
+  padding: 20px 2% 0 2%;
+  margin-bottom: 80px;
 }
 
 .top-sec > h1 {
-    margin:50px auto 0 auto;
-    line-height:2;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    color:#66BFBF;
+  margin: 40px auto 0 auto;
+  line-height: 2;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
 }
-.top-sec > h2{
-    font-size: 2.625rem;
-    color:#66BFBF;
-    font-weight:normal;
+.top-sec > h2 {
+  font-size: 2.625rem;
+  color: #66bfbf;
+  font-weight: normal;
 }
-.top-sec > .cloud-img-1{
-    position: absolute;
-    right: 330px;
+.top-sec > .cloud-img-1 {
+  position: absolute;
+  right: 330px;
 }
-.top-sec > .cloud-img-2{
-    position: absolute;
+.top-sec > .cloud-img-2 {
+  position: absolute;
 }
 
-.top-sec > .mountain-img{
+.top-sec > .mountain-img {
+  width: 80%;
+  max-width: 598px;
+}
+
+.profile{
+    margin: 20px auto;
+    width:50%;
+}
+.profile > h2{
+    font-size:2rem;
+    padding: 20px 0;
+}
+
+.skills > h2 {
+  font-size: 2rem;
+}
+.skills-row-l {
+  width: 50%;
+  margin: 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills-row-r {
+  width: 50%;
+  margin: 70px auto;
+  text-align: right;
+  line-height: 2;
+}
+.skills-img {
+  width: 25%;
+  float: left;
+  margin-right: 36px;
+}
+.skills-img-2 {
+  width: 25%;
+  float: right;
+  margin-left: 36px;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 50px auto;
+}
+.contact-me > h2{
+    font-size: 2rem;
+    margin-bottom:20px;
+}
+.contact-me > p{
+    margin:20px 0 50px 0;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 8px;
+    color:#FFF;
+    border-radius:8px;
+    background-image:linear-gradient(#11cdd4,#11999e);
+}
+.btn:hover{
+    background-image:linear-gradient(#11999e,#11cdd4);
+}
+.bottom-sec{
     width:100%;
-    max-width: 598px;
-}
-.skills{
-    margin: 70px 0;
-}
-.skills-row-l{
-    width:50%;
-    margin: 70px auto;
-    text-align:left;
-    line-height: 2;
-}
-.skills-row-r{
-    width:50%;
-    margin: 70px auto;
-    text-align:right;
-    line-height: 2;
-}
-.skills-img{
-    width:25%;
-    float:left;
-    margin-right:36px;
-}
-.skills-img-2{
-    width:25%;
-    float:right;
-    margin-left:36px;
-}
-.skills-descriptio-l{
-    clear:left;
-}
-.skills-descriptio-r{
-    clear:right;
+    margin-top:50px auto;
+    padding:50px 0 20px 0;
+    background-color: #66BFBF;
 }
 
+.bottom-sec > p{
+  color:#EAF6F6;
+  margin-top:40px;
+  font-size: 0.8rem;
+}
 
+.footer-link{
+    text-decoration: none;
+    padding: 0 3%;
+    color:#11999E;
+}
+.footer-link:hover{
+    color:#0c7d81;
+}
 
 /* media screen */
 
-@media screen and (max-width:1024px){
-    .top-sec > .cloud-img-1{
-        position: absolute;
-        right: 200px;
-    }
+@media screen and (max-width: 1024px) {
+  .top-sec > .cloud-img-1 {
+    position: absolute;
+    right: 200px;
+  }
 }
 
-@media screen and (max-width:768px){
-    .top-sec > .cloud-img-1{
-        position: absolute;
-        right: 100px;
-    }
+@media screen and (max-width: 768px) {
+  .top-sec > .cloud-img-1 {
+    position: absolute;
+    right: 100px;
+  }
+  .skills-img {
+    width: 40%;
+    float: none;
+    margin-right: 36px;
+  }
+  .skills-img-2 {
+    width: 40%;
+    float: none;
+    margin-left: 36px;
+  }
 }
 
-@media screen and (max-width:425px){
-    .top-sec > .cloud-img-1{
-        position: absolute;
-        right: 20px;
-    }
+@media screen and (max-width: 425px) {
+  .top-sec > .cloud-img-1 {
+    position: absolute;
+    right: 20px;
+
+  
 }
